@@ -1,5 +1,5 @@
 # Layanan Pengaduan dan Laporan Fasilitas Kampus
-Dibuat sebagai tugas akhir mata kuliah **Pemrograman Berorientasi Objek**.
+Dibuat sebagai tugas akhir mata kuliah **Praktikum Pemrograman Dasar**.
 ## Deskripsi
 Aplikasi desktop berbasis Java Swing dengan tampilan modern untuk melaporkan dan melihat daftar pengaduan fasilitas rusak.
 
