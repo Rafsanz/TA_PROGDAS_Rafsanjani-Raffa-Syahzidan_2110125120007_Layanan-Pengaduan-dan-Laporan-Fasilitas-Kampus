@@ -47,7 +47,7 @@ public class Menu extends JPanel {
             pane.addFrame("Form Pengaduan", new FormAduan());
         });
         itemDaftar.addActionListener(e -> {
-            pane.addFrame("Form Pengaduan", new DaftarPengaduan());
+            pane.addFrame("Daftar Aduan", new DaftarPengaduan());
         });
 
         blurChild.add(itemLapor);
