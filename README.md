@@ -47,3 +47,11 @@ Project ini mengimport library eksternal seperti:
 - Layout Manager: MigLayout + GridBagLayout
 - Build Tool: Apache Maven
 - IDE: IntelliJ IDEA
+
+## Screenshot
+Home / Main Menu
+<img width="882" height="589" alt="image" src="https://github.com/user-attachments/assets/a6cc2fc8-64c2-42de-aab8-df788a050fc2" />
+
+Form Lapor
+<img width="888" height="590" alt="image" src="https://github.com/user-attachments/assets/f4c731e2-bdca-4446-a60f-2b33619e3307" />
+
