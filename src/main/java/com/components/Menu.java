@@ -61,7 +61,12 @@ public class Menu extends JPanel {
                 .setBorder(new StyleBorder(30)
                         .setBorderWidth(1.5f)
                         .setOpacity(0.25f)
-                        .setBorderColor(new GradientColor(new Color(150, 150, 150), new Color(230, 230, 230), new Point2D.Float(0,0), new Point2D.Float(0,1)))
+                        .setBorderColor(new GradientColor(
+                                new Color(150, 150, 150),
+                                new Color(230, 230, 230),
+                                new Point2D.Float(0,0),
+                                new Point2D.Float(0,1)
+                        ))
                         .setDropShadow(new StyleDropShadow(new Color(0,0,0), 0.2f, new Insets(12, 12, 20, 20)))
                 )
                 .setOverlay(new StyleOverlay(new Color(255,255,255), 0.1f));

@@ -1,7 +1,7 @@
 package com.ta;
 
-import com.form.Database;
-import com.form.Pengaduan;
+import com.model.Database;
+import com.model.Pengaduan;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,6 +10,7 @@ import java.util.Objects;
 public class FormAduan extends JPanel {
 
     public FormAduan() {
+        setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
         initUI();
     }
 

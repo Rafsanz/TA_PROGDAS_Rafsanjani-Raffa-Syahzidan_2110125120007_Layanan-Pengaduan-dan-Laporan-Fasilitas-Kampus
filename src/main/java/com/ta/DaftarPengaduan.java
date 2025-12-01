@@ -1,7 +1,7 @@
 package com.ta;
 
-import com.form.Database;
-import com.form.Pengaduan;
+import com.model.Database;
+import com.model.Pengaduan;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -11,6 +11,7 @@ public class DaftarPengaduan extends JPanel {
 
     public DaftarPengaduan() {
         setLayout(new BorderLayout());
+        setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         String[] kolom = {"Nama", "Lokasi", "Kategori", "Deskripsi"};
         DefaultTableModel model = new DefaultTableModel(kolom, 0);
@@ -27,6 +28,7 @@ public class DaftarPengaduan extends JPanel {
 
         JTable table = new JTable(model);
         table.setFillsViewportHeight(true); // agar tabel memenuhi scroll pane meski data sedikit
+
         JScrollPane scrollPane = new JScrollPane(table);
         add(scrollPane, BorderLayout.CENTER);
     }

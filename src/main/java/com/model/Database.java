@@ -1,4 +1,4 @@
-package com.form;
+package com.model;
 
 import java.util.ArrayList;
 

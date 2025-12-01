@@ -27,7 +27,7 @@ Program ini memiliki form untuk melaporkan fasilitas kampus Tekkom yang rusak at
    ```
 2. Buka folder proyek di IntelliJ IDEA → Pilih "Open as Maven Project"
 3. Tunggu proses import dependensi selesai (IntelliJ akan otomatis membaca pom.xml)
-4. Jalankan kelas utama: com.ta.Aplikasi
+4. Jalankan kelas utama: com.ta.MainApp
 
 ## Dependensi
 Project ini mengimport library eksternal seperti:

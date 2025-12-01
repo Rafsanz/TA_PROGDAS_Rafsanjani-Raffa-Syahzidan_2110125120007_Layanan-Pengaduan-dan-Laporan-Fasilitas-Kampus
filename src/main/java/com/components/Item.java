@@ -19,7 +19,11 @@ public class Item extends BlurButton {
         super(new Style()
                 .setBlur(5)
                 .setBorder(new StyleBorder(15))
-                .setOverlay(new StyleOverlay(new GradientColor(new Color(255,255,255), new Color(30,30,30), new Point2D.Float(0,0), new Point2D.Float(0,1)), 0.3f))
+                .setOverlay(new StyleOverlay(new GradientColor(
+                        new Color(255,255,255),
+                        new Color(30,30,30),
+                        new Point2D.Float(0,0),
+                        new Point2D.Float(0,1)), 0.3f))
         );
         setText(text);
         if (icon != null) {

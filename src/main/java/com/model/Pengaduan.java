@@ -1,4 +1,4 @@
-package com.form;
+package com.model;
 
 public class Pengaduan {
     private String nama;

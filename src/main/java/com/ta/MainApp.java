@@ -6,11 +6,11 @@ import com.formdev.flatlaf.themes.FlatMacDarkLaf;
 import javax.swing.*;
 import java.awt.*;
 
-public class Aplikasi extends JFrame {
+public class MainApp extends JFrame {
 
     private DesktopPaneCustom pane = new DesktopPaneCustom();
 
-    public Aplikasi(){
+    public MainApp(){
         setTitle("Layanan Pengaduan dan Laporan Fasilitas Kampus");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(new Dimension(900, 600));
@@ -20,6 +20,6 @@ public class Aplikasi extends JFrame {
 
     public static void main(String[] args) {
         FlatMacDarkLaf.setup(); //ini theme dari library-nya flatLaf
-        EventQueue.invokeLater(() -> new Aplikasi().setVisible(true));
+        EventQueue.invokeLater(() -> new MainApp().setVisible(true));
     }
 }
