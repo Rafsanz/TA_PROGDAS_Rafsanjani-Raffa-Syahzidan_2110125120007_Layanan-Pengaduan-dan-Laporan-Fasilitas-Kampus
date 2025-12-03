@@ -5,6 +5,8 @@ import com.model.Pengaduan;
 
 import javax.swing.*;
 import java.awt.*;
+import java.beans.PropertyVetoException;
+import java.sql.SQLOutput;
 import java.util.Objects;
 
 public class FormAduan extends JPanel {
@@ -89,6 +91,19 @@ public class FormAduan extends JPanel {
         deskripsiArea.setText("");
         kategoriCombo.setSelectedIndex(0);
         namaField.requestFocus();
+
+        closeInternalFrame();
+    }
+    private void closeInternalFrame() {
+        // Dapatkan JInternalFrame yang membungkus panel ini
+        JInternalFrame frame = (JInternalFrame) SwingUtilities.getAncestorOfClass(JInternalFrame.class, this);
+        if (frame != null) {
+            try {
+                frame.setClosed(true); // ini akan menutup frame
+            } catch (PropertyVetoException e) {
+                System.out.println("Error");
+            }
+        }
     }
 
     public static boolean isKosong(String s) {
